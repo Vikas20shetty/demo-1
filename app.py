@@ -89,7 +89,6 @@ def delete_student(id):
         connection.close()
     return redirect(url_for('add_student'))
 
-
 if __name__ == '__main__':
-    app.run(debug=True,host=0.0.0.0)
+    app.run(debug=True, host='0.0.0.0')
 
